@@ -1,0 +1,363 @@
+*{margin: 0;padding: 0;font-family: "Microsoft YaHei UI";}
+/*头部CSS样式*/
+.header{
+	width: 100%;
+	height: 100px;
+	background: #07cbc9;
+	font-size: 15px;
+	color: #fff;
+	position: sticky;
+	top: 0;
+	z-index: 3;
+}
+.header .logo img{
+	float: left;
+	height: 80px;
+	width: 250px;
+	padding-left: 50px;
+	padding-top: 10px;	
+}
+.header .nav{
+	float: right;
+}
+.header .nav ul{
+	padding-right: 100px;
+}
+.header .nav ul li{
+	float: left;
+	list-style-type: none;
+	width: 80px;
+	height: 100px;
+	line-height: 100px;
+	font-weight: bolder;
+	text-align: center;
+}
+.header .nav li:hover{
+	background: #000;
+	cursor: pointer;
+}
+
+/*banner区*/
+.banner{
+	/*margin-top: 100px;*/
+	width: 100%;
+	height: 700px;
+}
+.banner .banner-img img{
+	width: 100%;
+	height: 700px;
+}
+.banner-layer{
+	position: absolute;
+	top: 100px;
+	left: 0;
+	width: 100%;
+	height: 700px;
+	opacity: 0.4;
+	background-color: #000;
+}
+
+.information{
+	width: 500px;
+	height: 350px;
+	position: absolute;
+	top: 450px;
+	margin-top: -150px;
+	z-index: 2;
+	right: 50%;
+	margin-right: -250px;
+	text-align: center;
+}
+.information table{
+	width: 500px;
+}
+.information table input{
+	width: 400px;
+	height: 30px;
+	margin-bottom: 10px;
+	background-color: transparent;
+	border: 1px gray solid;
+	color: gray;
+}
+.information table textarea{
+	width: 400px;
+	height: 100px;
+	margin-bottom: 10px;
+	background-color: transparent;
+	border: 1px gray solid;
+	color: gray;
+}
+.information table button{
+	height: 50px;
+	width: 150px;
+	background-color: transparent;
+	border: 1px gray solid;
+	color: gray;
+}
+.information table button:hover{
+	background: #07cbc9;
+	color: #fff;
+}
+.about{
+	height: auto;
+	width: 1000px;
+	margin:0 auto;
+}
+.about-top{
+	width: 1000px;
+	margin-bottom: 10px;
+	margin-top: 40px;
+}
+.about-title{
+	font-size: 50px;
+	font-weight: bolder;
+	text-align: center;
+}
+.about .about-top #hr{
+	background-color: #07cbc9;
+	width: 40px;
+	height: 2px;
+	border: none;
+	margin:20px 480px;
+}
+.about-top-word{
+	text-align: center;
+	color: gray;
+	font-size: 14px;
+}
+.about-middle{
+	height: 500px;
+	width: 1000px;
+}
+.about-middle-left{
+	height: 300px;
+	width: 300px;
+	float: left;
+}
+
+.about-middle-left-title{
+	font-size: 40px;
+	text-align: center;
+}
+.about-middle-left-word{
+	width: 330px;
+	border: 1px gray solid;
+	background-color: transparent;
+	position: relative;
+	left: 40px;
+	padding: 30px 20px;
+	line-height: 25px;
+}
+.about-middle-left button{
+	background: black;
+	color:#fff;
+	border: none;
+	width: 100px;
+	height: 50px;
+	margin-top: 10px;
+	font-size: 16px;
+}
+.about-middle-left button:hover{
+	background: white;
+	color: #000;
+	border: 1px #000 solid;
+}
+.about-middle-middle img{
+	height: 400px;
+	width: 500px;
+	float: left;
+}
+.about-middle-right{
+	float: left;
+}
+.about-middle-right .box{
+	text-align: center;
+	width: 150px;
+	height: 100px;
+	border: 1px #07cbc9 solid;
+	line-height: 50px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+}
+.about-middle-right .box #hr{
+	background-color: #07cbc9;
+	width: 40px;
+	height: 2px;
+	border: none;
+	margin-left:55px; 
+}
+.about-middle-right .number{
+	font-size: 30px;
+	font-weight: bolder;
+}
+.clear{
+	clear: both;
+}
+.about-bottom{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	text-align: center;
+}
+.about-bottom .about-bottom-top{
+	width:100%;
+	height: 400px;
+	position: relative;
+	left: 0;
+}
+.about-bottom-top img{
+	width: 25%;
+	height: 400px;
+	float: left;
+}
+.pic-word1{
+	width: 25%;
+	height: 400px;
+	background-color: #07cbc9;
+	float: left;
+}
+.about-bottom .about-bottom-bottom{
+	width: 100%;
+	height: 400px;
+	position: relative;
+	left: 0;
+}
+.about-bottom-bottom img{
+	width: 25%;
+	height: 400px;
+	float: right;
+}
+.pic-word2{
+	width: 25%;
+	height: 400px;
+	background-color: #07cbc9;
+	float: right;
+}
+.about-bottom .title{
+	color: #fff;
+	font-size: 26px;
+	padding-bottom: 15px;
+	text-align: left;
+}
+.about-bottom .des1{
+	font-size: 16px;
+	color: #fff;
+	padding-bottom: 10px;
+	line-height: 30px;
+	text-align: left;
+}
+.about-bottom .des2{
+	font-size: 14px;
+	color: #7D7D7F;
+	padding-bottom: 40px;
+	line-height: 20px;
+	text-align: left;
+}
+.pic-word-content{
+	padding: 30px 30px;
+	position:relative;
+}
+.pic-word-content .arrow{
+	display: block;
+	border-width: 20px;
+	position: absolute; 
+	bottom:150px; 
+	left:-40px;
+	border-style: solid dashed dashed;
+	border-color: transparent #07cbc9 transparent transparent;
+	font-size:0; 
+	line-height:0;
+}
+.pic-word-content .arrow2{
+	display: block;
+	border-width: 20px;
+	position:absolute; 
+	bottom: 150px; 
+	right: -40px;
+	border-style:solid dashed dashed;
+	border-color:transparent transparent transparent #07cbc9;
+	font-size:0; 
+	line-height:0;
+}
+
+.about-bottom button{
+	background: black;
+	color:#fff;
+	border: none;
+	width: 100px;
+	height: 50px;
+	font-size: 16px;
+	text-align: center;
+}
+.about-bottom button:hover{
+	background: transparent;
+	color: #fff;
+	border: 2px #000 solid;
+	cursor: pointer;
+}
+.gallery{
+	margin-top: 820px;
+	text-align: center;
+	overflow: auto;
+}
+.gallery-top{
+	width: 100%;
+	margin-bottom: 30px;
+	margin-top: 40px;
+}
+.gallery-top-title{
+	font-size: 50px;
+	font-weight: bolder;
+}
+.gallery-top #hr{
+	background-color: #07cbc9;
+	width: 40px;
+	height: 2px;
+	border: none;
+	margin:20px 50%;
+}
+.gallery-top-word{
+	text-align: center;
+	color: gray;
+	font-size: 14px;
+}
+.gallery-bottom{
+	width: 1000px;
+	margin-bottom: 30px;
+	margin-top: 40px;
+	margin: 0 auto;
+}
+.gallery-bottom .pic-top dl{
+	float: left;
+	width: 300px;
+	margin-left: 30px;
+}
+.gallery-bottom img{
+	width: 300px;
+	height: 250px;
+}
+.gallery-bottom .pic-bottom dl{
+	float: left;
+	width: 300px;
+	margin-left: 30px;
+}
+.gallery-bottom-word{
+	position: relative;
+	top: -50px;
+	background-color: black;
+	height: 50px;
+	color:white;
+	line-height: 50px;
+	text-align: left;
+	padding-left: 20px;
+	font-size: 10px;
+}
+.footer{
+	background: #07cbc9;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-size: 18px;
+}
